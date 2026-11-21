@@ -1,0 +1,39 @@
+{
+ "A3_mean_test_above_A0_at_epochs": [
+  8,
+  9,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  30
+ ],
+ "trajectory_medians": {
+  "A0": {
+   "median_test_grid_oracle_epoch_R1": 100.0,
+   "median_e_star_R1": 109.0,
+   "n": 80
+  },
+  "A3": {
+   "median_test_grid_oracle_epoch_R1": 40.0,
+   "median_e_star_R1": 89.5,
+   "n": 80
+  },
+  "A5": {
+   "median_test_grid_oracle_epoch_R1": 100.0,
+   "median_e_star_R1": 108.0,
+   "n": 80
+  },
+  "A7": {
+   "median_test_grid_oracle_epoch_R1": 40.0,
+   "median_e_star_R1": 36.5,
+   "n": 80
+  }
+ }
+}

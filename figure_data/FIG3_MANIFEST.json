@@ -1,0 +1,96 @@
+{
+ "report_type": "post_lock_fig3",
+ "label": "POST-LOCK descriptive figure; no checkpoint loaded, no re-scoring",
+ "created_utc": "2026-11-20T16:43:13Z",
+ "script_sha256": "c8b7585402a44cee0aee826657b49542ef869687a7a9bbee66544318763e38bb",
+ "inputs_sha256": {
+  "dryrun_scores.csv": "4130f20e095fe752f8d7c323654f70704adfeb1f3a9a8c822de34f5f058b851e",
+  "test_scores.csv": "93e1a08efb0dfca4d1147c3d69a6e8f146039c8cf1fe7e64be156e4357d50be3",
+  "test_per_trajectory.csv": "daafdf896da3d45ffcc649fc2fa69877568dba1144f9c66ec6f076fa4e62b49a"
+ },
+ "checks": {
+  "grid_states": 9600,
+  "identity_matched": true,
+  "epochs": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100,
+   110,
+   120
+  ]
+ },
+ "outputs_sha256": {
+  "FIG3_curves.csv": "4dea0252a67c3057683788868e735df8ff4b366dc8b15256724574b047c4655f",
+  "FIG3_trajectory_medians.json": "70a23210a405210870c0c2f208eca7725fc2c2bc9f4565b95b2350caa63f948e"
+ },
+ "environment": {
+  "python": "3.11.9",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "platform": "Windows-10-10.0.26100-SP0"
+ },
+ "facts": {
+  "A3_mean_test_above_A0_at_epochs": [
+   8,
+   9,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   30
+  ],
+  "trajectory_medians": {
+   "A0": {
+    "median_test_grid_oracle_epoch_R1": 100.0,
+    "median_e_star_R1": 109.0,
+    "n": 80
+   },
+   "A3": {
+    "median_test_grid_oracle_epoch_R1": 40.0,
+    "median_e_star_R1": 89.5,
+    "n": 80
+   },
+   "A5": {
+    "median_test_grid_oracle_epoch_R1": 100.0,
+    "median_e_star_R1": 108.0,
+    "n": 80
+   },
+   "A7": {
+    "median_test_grid_oracle_epoch_R1": 40.0,
+    "median_e_star_R1": 36.5,
+    "n": 80
+   }
+  }
+ }
+}

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+# reports written by scripts/verify_manuscript_numbers.py when run from the repository root
+manuscript_check.csv
+consistency_check.csv
